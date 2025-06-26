@@ -1,7 +1,7 @@
 {
   "name": "HerokuDeployBot",
   "description": "Telegram bot that deploys GitHub repos to Heroku via command",
-  "repository": "https://github.com/yourusername/HerokuDeployBot",
+  "repository": "https://github.com/RitikRohin/EsproDiployBot",
   "env": {
     "API_ID": {
       "description": "Your Telegram API ID",
