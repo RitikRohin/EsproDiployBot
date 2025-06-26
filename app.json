@@ -1,0 +1,28 @@
+{
+  "name": "HerokuDeployBot",
+  "description": "Telegram bot that deploys GitHub repos to Heroku via command",
+  "repository": "https://github.com/yourusername/HerokuDeployBot",
+  "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram bot token from @BotFather",
+      "required": true
+    },
+    "HEROKU_API_KEY": {
+      "description": "Your Heroku API Key (https://dashboard.heroku.com/account)",
+      "required": true
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
